@@ -3,6 +3,7 @@ package com.ie.dorset.student_id_23761.ca1
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.view.View
 
 class MainActivity : AppCompatActivity() {
@@ -36,6 +37,15 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
 
     }
+
+    fun showMenuHobbies(item: MenuItem) {
+        val intent = Intent(this, Hobbies::class.java)
+        startActivity(intent)
+    }
+
+
+
+
 
 
 
