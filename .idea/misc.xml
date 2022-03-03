@@ -3,11 +3,25 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/layout/achievements.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/drawable/ic_round_add_circle_24.xml" value="0.1" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/layout/achievements.xml" value="0.1" />
         <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/layout/education.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/layout/education.xml" value="0.22" />
         <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/layout/hobbies.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/layout/layout.xml" value="0.1" />
         <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/layout/skills.xml" value="0.2" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.1" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/bottom_navigation_menu_edu.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/bottom_navigation_menu_hobbies.xml" value="0.1" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/bottom_navigation_menu_skills.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/top_app_bar.xml" value="0.1" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/top_app_bar_achiv.xml" value="0.1" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/top_app_bar_edu.xml" value="0.2" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/top_app_bar_hobbies.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/menu/top_app_bar_skills.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/eder_/AndroidStudioProjects/CA1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
       </map>
     </option>
   </component>
