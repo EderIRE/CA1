@@ -4,12 +4,12 @@
 
 ## Requirements CheckList
 
-✅ Main Activity (or Launcher Activity)
-✅ Button Links open new Activity
-⚠️ Home icon opens Main Activity from back-stack instead of creating newly
-✅ Exit Button finishes the activity and closes the app ( Exit button on Main Screen might need double click to close the app)
-⚠️ Text is not hardcoded in the layout but is present in "strings" resources xml file
-### Image Assets
+✅ Main Activity (or Launcher Activity)  
+✅ Button Links open new Activity  
+⚠️ Home icon opens Main Activity from back-stack instead of creating newly  
+✅ Exit Button finishes the activity and closes the app ( Exit button on Main Screen might need double click to close the app)  
+⚠️ Text is not hardcoded in the layout but is present in "strings" resources xml file  
+### Image Assets  
 ✅ Images (Raster) are used
 ✅ Vector icons (inbuilt material icons) are used
 ✅ SVG icon is used
@@ -40,4 +40,12 @@
 ✅ Show both icons and text in buttons (except home icon)
 ✅ Make ImageView display your photo with rounded corners (without editing your photo)
 
+## Report
 
+To design an About Me application, I have started designing the top bar, bottom bar and some icons using the Material Design language developed by Google.
+To successfully complete most of the tasks, I have used some important pieces of advice from StackOverFlow, which I could apply an alternative way to make the ImageView display photos with rounded corners using the CardView implementation, exit the application using exitProcess and finish the activity using finish(). 
+I have encountered difficulties to use Android Studio, which is so buggy and heavy on my laptop i5 8Gb Ram. Several times the Android Emulator got stuck at "Waiting for the target to come online", which was solved by accessing the AVD Manager and Wipe Data.
+I failed to develop an exit button that closes the application immediately instead the user will need to touch twice the exit icon to close the application. I couldn't find a better method to do it. I also couldn't complete some layouts requirements.
+Most of those challenges that I have encountered was successfully solved enhancing my self taught learning and solving-problem skills. Developing for the first time a Kotlin application was a pleasant experience that I want to master to create more advanced applications in the future and work as Android Developer.
+In this project, I also improved the better method to present a project on GitHub such as Releases options to show each release of your application and describe it and use MarkDown to write a ReadMe file which it's a good practice to help the people understand what your project is about. 
+In the next Kotlin project, I aim to improve the best coding practices and better methods to develop Kotlin applications, get used to Android Studio and improve the design of the layouts which I started to have a better understanding of it after using the Material Design language. 
