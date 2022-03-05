@@ -5,20 +5,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
+    <ScrollView
         android:layout_marginTop="55dp"
+        android:layout_marginBottom="55dp"
         android:layout_width="match_parent"
-        android:layout_height="620dp"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:orientation="vertical">
 
-
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            >
         <ImageView
             android:id="@+id/imageView4"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
-            app:srcCompat="@drawable/achiv" />
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/achiv"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            />
+        </androidx.cardview.widget.CardView>
 
         <TextView
                 android:id="@+id/textView1"
@@ -46,10 +59,36 @@
                 android:layout_marginLeft="120dp"
                 android:text="🏆‍ Complete my degree" />
 
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=" Copyright &#169; Eder Costa 2022"
+                android:textColor="#63666A"
+                android:textSize="10dp"
+                />
 
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:text="Built with Android Studio"
+            android:textColor="#63666A"
+            android:textSize="10dp" />
 
 
     </LinearLayout>
+    </ScrollView>
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"

@@ -20,20 +20,33 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_marginTop="55dp"
+        android:layout_marginBottom="55dp"
         android:layout_width="match_parent"
-        android:layout_height="620dp"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
 
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp">
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="20dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
             app:srcCompat="@drawable/skills" />
+        </androidx.cardview.widget.CardView>
 
         <TextView
             android:id="@+id/textView1"
@@ -54,6 +67,15 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="150dp"
             android:text="👾 JavaScript" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/android_studio_trademark" />
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
@@ -61,11 +83,41 @@
             android:layout_marginLeft="150dp"
             android:text="🤖️ Kotlin" />
 
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_marginTop="400dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Copyright &#169; Eder Costa 2022"
+            android:textColor="#63666A"
+            android:textSize="10dp"
+             />
 
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="1dp"
+            android:text="Built with Android Studio"
+            android:textColor="#63666A"
+            android:textSize="10dp" />
 
 
     </LinearLayout>
+    </ScrollView>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
         android:layout_width="match_parent"
@@ -73,4 +125,5 @@
         android:layout_gravity="bottom"
         style="@style/Widget.MaterialComponents.BottomNavigationView.Colored"
         app:menu="@menu/bottom_navigation_menu_skills" />
+    </LinearLayout>
 </FrameLayout>

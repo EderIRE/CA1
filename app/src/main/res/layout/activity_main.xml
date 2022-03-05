@@ -14,8 +14,8 @@
         android:onClick="showSkills"
         android:text="Skills"
         app:layout_constraintBottom_toTopOf="@+id/button_hobbies"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_hobbies"
+        app:layout_constraintStart_toStartOf="@+id/button_hobbies"
         app:layout_constraintTop_toBottomOf="@+id/button_education"
         app:layout_constraintVertical_bias="0.613" />
 
@@ -23,12 +23,13 @@
         android:id="@+id/button_education"
         android:layout_width="155dp"
         android:layout_height="50dp"
+        android:layout_marginTop="22dp"
         android:onClick="showEducation"
         android:text="Education"
         app:layout_constraintBottom_toTopOf="@+id/button_skill"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="@+id/button_skill"
+        app:layout_constraintStart_toStartOf="@+id/button_skill"
+        app:layout_constraintTop_toTopOf="@+id/textView"
         app:layout_constraintVertical_bias="0.521" />
 
     <Button
@@ -38,8 +39,8 @@
         android:onClick="showHobbies"
         android:text="Hobbies"
         app:layout_constraintBottom_toTopOf="@+id/button_achievements"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_achievements"
+        app:layout_constraintStart_toStartOf="@+id/button_achievements"
         app:layout_constraintTop_toBottomOf="@+id/button_skill"
         app:layout_constraintVertical_bias="0.716" />
 
@@ -51,7 +52,6 @@
         android:text="Achievements"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_hobbies"
         app:layout_constraintVertical_bias="0.827" />
@@ -60,35 +60,56 @@
         android:id="@+id/imageView2"
         android:layout_width="178dp"
         android:layout_height="237dp"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="16dp"
+
+        android:layout_marginBottom="446dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/profile_pic" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello 👋, I'm Eder Costa 🤓"
+
+        android:text="Hello 👋, I'm Eder Souza da Costa 🤓"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.431" />
+        app:layout_constraintVertical_bias="0.4" />
+
+
+    <TextView
+        android:id="@+id/textVieww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="23761@student.dorset-college.ie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="a Kotlin Developer"
+
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textVieww"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="@+id/textVieww"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.457" />
+        app:layout_constraintVertical_bias="0.452" />
 
     <TextView
         android:id="@+id/textView6"
@@ -96,21 +117,37 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:text=" Copyright &#169; Eder Costa 2022"
-        android:textColor="#DCDCDC"
+        android:textColor="#63666A"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="1dp"
         android:text="Built with Android Studio"
-        android:textColor="#DCDCDC"
+        android:textColor="#63666A"
         android:textSize="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.958"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977"
+        app:srcCompat="@drawable/ic_round_exit_to_app_24"
+        app:tint="@android:color/holo_red_light" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

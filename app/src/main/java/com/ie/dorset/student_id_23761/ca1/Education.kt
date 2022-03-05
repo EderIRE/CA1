@@ -23,4 +23,9 @@ import androidx.appcompat.app.AppCompatActivity
             startActivity(intent)
 
         }
+
+        fun exit (item: MenuItem){
+            finish()
+
+        }
     }

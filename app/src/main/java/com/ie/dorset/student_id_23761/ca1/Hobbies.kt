@@ -28,4 +28,9 @@ class Hobbies : AppCompatActivity() {
         startActivity(intent)
 
     }
+
+    fun exit (item: MenuItem){
+        finish()
+
+    }
 }

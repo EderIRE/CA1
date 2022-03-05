@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
+import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,11 +39,9 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun showMenuHobbies(item: MenuItem) {
-        val intent = Intent(this, Hobbies::class.java)
-        startActivity(intent)
+    fun exit (view: View){
+        exitProcess(0)
     }
-
 
 
 
