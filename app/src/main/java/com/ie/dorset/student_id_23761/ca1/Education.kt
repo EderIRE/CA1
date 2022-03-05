@@ -15,12 +15,14 @@ import androidx.appcompat.app.AppCompatActivity
         fun showHomeMenu(item: MenuItem) {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            finish()
 
         }
 
         fun showSkillsMenu(item: MenuItem) {
             val intent = Intent(this, Skills::class.java)
             startActivity(intent)
+            finish()
 
         }
 

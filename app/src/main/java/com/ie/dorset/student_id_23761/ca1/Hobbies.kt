@@ -14,18 +14,22 @@ class Hobbies : AppCompatActivity() {
     fun showSkillsMenu(item: MenuItem) {
         val intent = Intent(this, Skills::class.java)
         startActivity(intent)
+        finish()
 
     }
 
     fun showHomeMenu(item: MenuItem) {
         val intent = Intent(this, MainActivity::class.java)
         startActivity(intent)
+        finish()
+
 
     }
 
     fun showAchivMenu(item: MenuItem) {
         val intent = Intent(this, Achievements::class.java)
         startActivity(intent)
+        finish()
 
     }
 

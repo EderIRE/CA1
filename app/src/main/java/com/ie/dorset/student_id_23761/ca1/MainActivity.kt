@@ -41,6 +41,7 @@ class MainActivity : AppCompatActivity() {
 
     fun exit (view: View){
         exitProcess(0)
+
     }
 
 
